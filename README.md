@@ -22,4 +22,4 @@ the page), and this resulted in making both more complex. I would fail at state 
 Found myself in "impossible" states that were difficult to debug.
 
 Once you understand this, you are welcome to use:<br />
-React Query, SWR, Apollo Client
+React Query, SWR, Apollo Client, urql
