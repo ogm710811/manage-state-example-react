@@ -16,10 +16,9 @@ MobX, Redux, Overmind, Zustand, Recoil, etc... or just stick with `useState`
 
 ## External Data or Server Cache
 
-What happened to me for pretty much every app I wrote up until even this year was that I would 
-take the data I got from the server and treat it like it was UI state. I would mix it in with 
-the actual UI state (stuff that's not persisted. You know, the stuff that goes away when you refresh 
-the page), and this resulted in making both more complex. I would try and fail at state synchronization.
+What happened when you take the data coming from the server and treat it like it was UI state. It mixes
+in with the actual UI state (stuff that's not persisted. You know, the stuff that goes away when you refresh 
+the page), and this resulted in making both more complex. I would fail at state synchronization.
 Found myself in "impossible" states that were difficult to debug.
 
 Once you understand this, you are welcome to use:<br />
